@@ -1,0 +1,28 @@
+package estrutura.vetor;
+
+import java.util.Scanner;
+
+public class Exemplo04 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int[] numeros;
+		
+		System.out.println("Tamanho do Vetor: ");
+		int tamanho = sc.nextInt();
+		
+		numeros = new int[tamanho];
+		
+		for(int i = 0; i < tamanho; i++) {
+			System.out.println("Numero na posição " + i + ": ");
+			int numero = sc.nextInt();
+			numeros[i] = numero;
+		}
+		
+		for(int i = 0; i < tamanho; i++) {
+			System.out.println(numeros[i]);
+		}
+	}
+
+}
