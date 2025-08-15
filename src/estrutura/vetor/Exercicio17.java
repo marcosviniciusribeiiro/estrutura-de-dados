@@ -1,6 +1,7 @@
 package estrutura.vetor;
 
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Exercicio17 {
 	public static Scanner sc;
@@ -19,9 +20,6 @@ public class Exercicio17 {
 			}
 		}
 				
-		for(int i = 0; i < numeros.length; i++) {
-			System.out.println(numeros[i]);
-		}
-		
+		System.out.println(Arrays.toString(numeros));	
 	}
 }

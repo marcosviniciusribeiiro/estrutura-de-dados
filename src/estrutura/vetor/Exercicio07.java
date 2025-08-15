@@ -1,5 +1,7 @@
 package estrutura.vetor;
 
+import java.util.Arrays;
+
 public class Exercicio07 {
 	public static void main(String[] args) {
 		int[] v1 = {1, 3, 5, 7, 9};
@@ -15,9 +17,6 @@ public class Exercicio07 {
 			v3[c] = v2[i];
 			c++;
 		}
-		
-		for(int i = 0; i < v3.length; i++) {
-			System.out.println(v3[i]);
-		}
+		System.out.println(Arrays.toString(v3));
 	}
 }

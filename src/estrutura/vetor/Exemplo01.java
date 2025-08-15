@@ -1,5 +1,7 @@
 package estrutura.vetor;
 
+import java.util.Arrays;
+
 public class Exemplo01 {
 	public static void main(String[] args) {
 		// declararação do vetor
@@ -8,10 +10,10 @@ public class Exemplo01 {
 		
 		// inicializando o vetor e imprimindo cada elemento do vetor
 		for(int i = 0; i<5; i++) {
-			numeros[i] = c;
-			c += 2;
-			System.out.println(numeros[i]);
+			numeros[i] = c +=2;
 		}
+
+		System.out.println(Arrays.toString(numeros));
 
 	}
 }
