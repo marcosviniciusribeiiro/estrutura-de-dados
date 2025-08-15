@@ -1,7 +1,9 @@
 package estrutura.vetor;
 
 public class Exercicio11 {
-
+	public static void main(String[] args) {
+		
+	}
 }
 /*
 11 - Sortear 30 numeros inteiros e armazene no vetor. 

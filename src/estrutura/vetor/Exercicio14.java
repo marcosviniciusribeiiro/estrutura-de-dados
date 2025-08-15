@@ -3,10 +3,8 @@ package estrutura.vetor;
 public class Exercicio14 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
-
 }
 /*
 14 - Sortear 10 números e armazene-os em um vetor. 

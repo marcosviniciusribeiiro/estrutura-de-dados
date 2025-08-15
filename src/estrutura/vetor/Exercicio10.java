@@ -1,7 +1,9 @@
 package estrutura.vetor;
 
 public class Exercicio10 {
-
+	public static void main(String[] args) {
+		
+	}
 }
 /*
 10 - Sortear 15 números e armazene-os em um vetor.
