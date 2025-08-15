@@ -1,15 +1,25 @@
 package estrutura.vetor;
 
-public class Exercicio02 {
+import java.util.Scanner;
 
+public class Exercicio02 {
+	public static Scanner sc;
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		sc = new Scanner(System.in);
+		
+		int[] vetor = new int[5];
+		int numero, soma=0;
+		
+		System.out.println("Vamos Calcular!");
+		
+		for(int i = 0; i < vetor.length; i++) {
+			System.out.println("Numero " + (i+1) + ": ");
+			numero = sc.nextInt();			
+			vetor[i] = numero;
+			soma += numero;
+		}		
+		System.out.println("Soma Total = " + soma);
 
 	}
-
 }
-/*
-2 - Desenvolva um programa que leia 5 números inteiros, 
-armazene-os em um vetor e calcule a soma de todos os elementos.
- 
- */
