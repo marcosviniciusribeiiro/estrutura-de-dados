@@ -13,10 +13,8 @@ public class Exercicio01 {
 		
 		for(int i = 0; i < numeros.length; i++) {
 			System.out.println((i+1) + "° número:");
-			int numero = sc.nextInt();
-			
-			numeros[i] = numero;
+			numeros[i] = sc.nextInt();
 		}
-		System.out.println("Vetor : " + Arrays.toString(numeros));
+		System.out.println("Vetor de Números: " + Arrays.toString(numeros));
 	}
 }
