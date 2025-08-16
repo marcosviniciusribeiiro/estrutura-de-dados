@@ -6,15 +6,13 @@ public class Exercicio16 {
 	public static Scanner sc;
 	public static void main(String[] args) {
 		sc = new Scanner(System.in);
-		Double[] numeros = new Double[2];
-		double num, media, soma = 0;
-		int i; 
+		Double[] numeros = new Double[10];
+		double media, soma = 0; 
 		
-		for(i = 0; i < numeros.length; i++) {
-			System.out.println("Número " + (i+1));
-			num = sc.nextDouble();
+		for(int i = 0; i < numeros.length; i++) {
+			System.out.println("Número " + (i+1) + ":");
+			numeros[i] = sc.nextDouble();
 			
-			numeros[i] = num;
 			soma += numeros[i];
 		}
 		
@@ -25,7 +23,7 @@ public class Exercicio16 {
 		
 		System.out.println("\nNúmeros Acima da Média:");
 		
-		for(i = 0; i < numeros.length; i++) {
+		for(int i = 0; i < numeros.length; i++) {
 			if(numeros[i] > media) {
 				System.out.println(numeros[i]);
 			}
