@@ -9,14 +9,12 @@ public class Exercicio03 {
 		sc = new Scanner(System.in);
 		
 		Double[] notas = new Double[8];
-		double nota, soma = 0, media;
+		double soma = 0, media;
 		
 		for(int i = 0; i < notas.length; i++) {
 			System.out.println("Nota do " + (i+1) + "° Aluno: ");
-			nota = sc.nextDouble();
-			
-			notas[i] = nota;
-			soma += nota;
+			notas[i] = sc.nextDouble();
+			soma += notas[i];
 		}
 		media = soma/(notas.length);
 		
