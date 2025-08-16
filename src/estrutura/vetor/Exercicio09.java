@@ -9,7 +9,7 @@ public class Exercicio09 {
 		
 		int[] vetor3 = new int[6];
 		
-		for(int i = 0; i < 6; i++) {
+		for(int i = 0; i < vetor3.length; i++) {
 			vetor3[i] = vetor1[i] * vetor2[i];
 		}
 		System.out.println("Vetor: " + Arrays.toString(vetor3));
