@@ -10,7 +10,7 @@ public class Exercicio08 {
 				
 		
 		for(int i = 0; i < numerosSorteados.length; i++) {
-			numerosSorteados[i] = aleatorio.nextInt(101);
+			numerosSorteados[i] = aleatorio.nextInt(100) + 1;
 		}
 		
 		int[] tempUnicos = new int[20];
