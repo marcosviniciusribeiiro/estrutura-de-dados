@@ -17,3 +17,5 @@ public class Exercicio05 {
 		}
 	}
 }
+
+/*5 - Leia 10 números e armazene-os em um vetor. Mostre os elementos na ordem inversa à de inserção.*/
