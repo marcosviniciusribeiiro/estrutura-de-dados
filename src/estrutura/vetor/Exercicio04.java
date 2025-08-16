@@ -27,3 +27,6 @@ public class Exercicio04 {
 		}
 	}
 }
+
+/*4 - Elabore um programa que leia 15 números inteiros e armazene-os em um vetor. 
+  Em seguida, conte e exiba quantos desses números são pares.*/
