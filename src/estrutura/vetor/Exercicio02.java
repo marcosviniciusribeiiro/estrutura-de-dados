@@ -22,3 +22,6 @@ public class Exercicio02 {
 
 	}
 }
+
+/*2 - Desenvolva um programa que leia 5 números inteiros, 
+  armazene-os em um vetor e calcule a soma de todos os elementos.*/
