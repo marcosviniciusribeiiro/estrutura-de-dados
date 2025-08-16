@@ -20,3 +20,6 @@ public class Exercicio07 {
 		System.out.println(Arrays.toString(v3));
 	}
 }
+
+/*7 - Dado dois vetores de 5 elementos cada, crie um terceiro vetor 
+  que intercale os elementos dos dois vetores anteriores.*/
