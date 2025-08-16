@@ -10,7 +10,7 @@ public class Exercicio15 {
 		
 		int[] vetor1 = new int[7];
 		int[] vetor2 = new int[7];
-		int[] vetor3 = new int[14];
+		int[] vetor3 = new int[vetor1.length + vetor2.length];
 		System.out.println("Preenchendo o primeiro vetor:");
 		for(int i = 0; i < vetor1.length; i++) {
 			System.out.println("Digite o número " + (i+1) + ": ");
