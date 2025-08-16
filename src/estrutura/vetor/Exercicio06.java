@@ -7,17 +7,15 @@ public class Exercicio06 {
 	public static Scanner sc;
 	public static void main(String[] args) {
 		sc = new Scanner(System.in);
-		//declarando as variaveis e iniciando o vetor
+		
 		int[] numeros = new int[12];
 		int maiorNum=0, menorNum = 1000000;
 	
-		//for para inserir os vetores
 		for(int i = 0; i < numeros.length; i++) {
 			System.out.println((i+1) + " número:");
 			numeros[i] = sc.nextInt();
 			
 			
-			//if e else para definir o maior e o menor número
 			if(numeros[i]> maiorNum) {
 				maiorNum = numeros[i];
 			}else if(numeros[i]< menorNum) { 
@@ -31,3 +29,5 @@ public class Exercicio06 {
 		System.out.println("\nMenor Numero: " + menorNum);
 	}
 }
+
+/*6 - Crie um vetor com 12 elementos inteiros. Encontre e exiba o maior e o menor valor presente no vetor.*/
