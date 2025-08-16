@@ -27,3 +27,6 @@ public class Exercicio13 {
 		System.out.println("Vetor formatado: " + Arrays.toString(numeros));
 	}
 }
+
+/*13 - Crie um vetor de 10 elementos. Desenvolva um programa que rotacione os elementos uma posição para a direita. 
+  O último elemento deve passar a ser o primeiro.*/
