@@ -32,7 +32,11 @@ public class Exercicio11 {
 		if(num == false) {
 			System.out.println("Numero não encontrado.");				
 		}
-		System.out.println(Arrays.toString(numerosSorteador));
+		System.out.println("\nNumeros Sorteados: " + Arrays.toString(numerosSorteador));
 		
 	}
 }
+
+/*11 - Sortear 30 números inteiros e armazene no vetor. Solicite ao usuário que insira um número 
+  e verifique se o número aparece no vetor, caso apareça exiba a mensagem da posição que o número foi encontrado, 
+  caso o número não exista no vetor exiba uma mensagem informando que o número não existe no vetor.*/
