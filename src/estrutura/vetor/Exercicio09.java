@@ -15,3 +15,6 @@ public class Exercicio09 {
 		System.out.println("Vetor: " + Arrays.toString(vetor3));
 	}
 }
+
+/*9 - Inicialize dois vetores de 6 elementos inteiros cada. Gere um terceiro vetor onde 
+  cada elemento é o produto dos elementos correspondentes nos vetores originais.*/
