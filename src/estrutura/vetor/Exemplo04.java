@@ -18,10 +18,9 @@ public class Exemplo04 {
 		
 		for(int i = 0; i < tamanho; i++) {
 			System.out.println("Numero na posição " + i + ": ");
-			int numero = sc.nextInt();
-			numeros[i] = numero;
+			numeros[i] = sc.nextInt();
 		}
 		
-		System.out.println("Vetor de Números: " + Arrays.toString(numeros));
+		System.out.println("Vetor: " + Arrays.toString(numeros));
 	}
 }
