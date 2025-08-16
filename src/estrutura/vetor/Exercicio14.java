@@ -9,18 +9,16 @@ public class Exercicio14 {
 		int[] numeros = new int[10];
 		
 		for(int i = 0; i < numeros.length; i++) {
-			numeros[i] = aleatorio.nextInt(11);
+			numeros[i] = aleatorio.nextInt(50) + 1;
 		}
 		
-		int j = numeros.length - 1;
-		for(int i = 0; i <= 4; i++) {
-			if(j >= 5) {
-				int n = numeros[i];
-				numeros[i] = numeros[j];
-				numeros[j] = n;
-				j--;
-			}
-		}	
-		System.out.println("Vetor: " + Arrays.toString(numeros));
+		System.out.println("Vetor original: " + Arrays.toString(numeros));
+		
+		for(int i = 0,  j = numeros.length - 1; i < j; i++, j--) {
+			int aux = numeros[i];
+			numeros[i] = numeros[j];
+			numeros[j] = aux;
+		}
+		System.out.println("Vetor com elementos invertidos: " + Arrays.toString(numeros));
 	}
 }
