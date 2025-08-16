@@ -9,8 +9,7 @@ public class Exercicio05 {
 		
 		for(int i = 0; i < num.length; i++) {
 			System.out.println((i+1) + "° Número:");
-			int n = sc.nextInt();
-			num[i] = n;
+			num[i] = sc.nextInt();
 		}
 		
 		for(int i = 9; i >= 0; i--) {
