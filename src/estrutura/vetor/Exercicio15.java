@@ -36,7 +36,5 @@ public class Exercicio15 {
 		
 	}
 }
-/*
-15 - Dado dois vetores de 7 elementos cada, 
-crie um terceiro vetor que seja a concatenação dos dois primeiros.
-*/
+
+/*15 - Dado dois vetores de 7 elementos cada, crie um terceiro vetor que seja a concatenação dos dois primeiros.*/
