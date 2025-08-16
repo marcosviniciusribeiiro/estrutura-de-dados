@@ -13,7 +13,7 @@ public class Exercicio10 {
 		int idxPar = 0, idxImpar = 0;
 		
 		for(int i = 0; i < numSorteado.length; i++) {
-			numSorteado[i] = aleatorio.nextInt(101);
+			numSorteado[i] = aleatorio.nextInt(100) + 1;
 			int numAtual = numSorteado[i];
 			
 			if(numAtual % 2 == 0) {
