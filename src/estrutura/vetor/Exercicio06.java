@@ -9,19 +9,19 @@ public class Exercicio06 {
 		sc = new Scanner(System.in);
 		//declarando as variaveis e iniciando o vetor
 		int[] numeros = new int[12];
-		int i, n, maiorNum=0, menorNum = 1000000;
+		int maiorNum=0, menorNum = 1000000;
 	
 		//for para inserir os vetores
-		for(i = 0; i < numeros.length; i++) {
+		for(int i = 0; i < numeros.length; i++) {
 			System.out.println((i+1) + " número:");
-			n = sc.nextInt();
-			numeros[i] = n;
+			numeros[i] = sc.nextInt();
+			
 			
 			//if e else para definir o maior e o menor número
-			if(n> maiorNum) {
-				maiorNum = n;
-			}else if(n< menorNum) { 
-				menorNum = n;
+			if(numeros[i]> maiorNum) {
+				maiorNum = numeros[i];
+			}else if(numeros[i]< menorNum) { 
+				menorNum = numeros[i];
 			}
 		}
 		
