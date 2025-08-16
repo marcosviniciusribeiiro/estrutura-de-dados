@@ -8,20 +8,19 @@ public class Exercicio04 {
 		sc = new Scanner(System.in);
 		
 		int[] numeros = new int[15];
-		int numero, i, contador = 0;
+		int contador = 0;
 		
 		
-		for(i = 0; i < numeros.length; i++) {
+		for(int i = 0; i < numeros.length; i++) {
 			System.out.println("Numero " + (i+1) + ": ");
-			numero = sc.nextInt();
-			numeros[i] = numero;
+			numeros[i] = sc.nextInt();
 			
-			if(numero % 2 == 0) {
+			if(numeros[i] % 2 == 0) {
 				contador ++;
 			}
 		}
 		System.out.println("Numeros Pares: " + contador);
-		for(i = 0; i < numeros.length; i++) {
+		for(int i = 0; i < numeros.length; i++) {
 			if(numeros[i] % 2 == 0) {
 				System.out.println(numeros[i]);
 			}
