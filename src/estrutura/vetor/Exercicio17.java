@@ -8,12 +8,11 @@ public class Exercicio17 {
 	public static void main(String[] args) {
 		sc = new Scanner(System.in);
 		
-		int[] numeros = new int[3];
+		int[] numeros = new int[15];
 		
 		for(int i = 0; i < numeros.length; i++) {
 			System.out.println("Número " + (i+1));
-			int numero = sc.nextInt();
-			numeros[i] = numero;
+			numeros[i] = sc.nextInt();
 			
 			if(numeros[i] < 0) {
 				numeros[i] = 0;
