@@ -1,5 +1,6 @@
 package estrutura.matriz;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 public class Exercicio04 {
@@ -18,7 +19,6 @@ public class Exercicio04 {
 		}
 		
 		double media = soma / 10;
-		 
 		
 		System.out.println("Matriz");
 		for(int i = 0; i < matriz.length; i++) {
@@ -28,16 +28,20 @@ public class Exercicio04 {
 			System.out.println();
 		}
 		
-		System.out.println("\nMedia " + media);
+
+		ArrayList<Integer> acimaMedia = new ArrayList<Integer>();
 		
-		System.out.println("\nNúmeros Acima da Média");
 		for(int i = 0; i < matriz.length; i++) {
 			for(int j = 0; j < matriz[i].length; j++) {
 				if(matriz[i][j] > media) {
-					System.out.print(matriz[i][j] + " ");
+					acimaMedia.add(matriz[i][j]);
 				}
 			}
 		}
+		
+		System.out.println("\nMédia: " + media);
+		System.out.println("\nNúmeros acima da média: " + acimaMedia);
+		
 	}
 }
 /*4 - Criar uma matriz 5x2 e sortear números de 1 até 10 e inserir na matriz.
