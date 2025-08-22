@@ -20,6 +20,7 @@ public class Exercicio02 {
 				}
 			}
 		}
+		sc.close();
 		
 		System.out.println("\nMatriz");
 		
