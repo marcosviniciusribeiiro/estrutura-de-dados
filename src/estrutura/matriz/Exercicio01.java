@@ -11,7 +11,7 @@ public class Exercicio01 {
 		
 		for(int i = 0; i < mat.length; i++) {
 			for(int j = 0; j < mat[i].length; j++) {
-				System.out.println("Digite um núemro:");
+				System.out.println("Digite um número:");
 				mat[i][j] = sc.nextInt();
 				soma += mat[i][j];
 			}
