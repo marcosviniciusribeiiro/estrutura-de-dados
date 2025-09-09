@@ -19,7 +19,7 @@ public class FilaAtendimento<T> {
 	}
 	
 	public T primeiroCliente() {
-		return fila.peek();
+		return fila.element();
 	}
 	
 	public void imprimirFila() {
