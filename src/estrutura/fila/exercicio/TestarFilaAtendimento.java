@@ -8,6 +8,9 @@ public class TestarFilaAtendimento {
 		
 
 		System.out.println("Atendendo cliente: " + fila.atenderCliente());
-		System.out.println("Atendendo cliente: " + fila.atenderCliente());
+		
+		System.out.println("Próximo Cliente: " + fila.primeiroCliente());
+		
+		fila.imprimirFila();
 	}	
 }
