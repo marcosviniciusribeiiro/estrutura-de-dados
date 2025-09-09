@@ -21,7 +21,7 @@ public class Cliente {
 
 	@Override
 	public String toString() {
-		return nome + "\nForma de pagamento: " + tipoPagamento + "\n";
+		return nome + "\nForma de Pagamento: " + tipoPagamento + "\nTempo de Atendimento: " + tempo + " min.\n";
 	}
 	
 	
