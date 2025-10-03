@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SelectionSort {
 	public static void main(String[] args) {
-		int[] vetor = {22,11,6, 66, 29, 5, 7,33,40,6,10,3,2,1,4, 7,8};
+		int[] vetor = {22,11,6, 66, 29, 6,1,6,12,10,22,3};
 		int menor_index, temp, troca = 0, comparacao = 0;
 		for(int i = 0; i < vetor.length - 1; i++) {
 			menor_index = i;
