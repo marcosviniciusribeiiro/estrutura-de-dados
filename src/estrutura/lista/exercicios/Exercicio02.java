@@ -11,6 +11,7 @@ public class Exercicio02 {
 		numeros.add(30);
 		numeros.add(40);
 		numeros.add(50);
+		imprimir(numeros);
 		numeros.removeFirst();
 		numeros.removeLast();
 		imprimir(numeros);
@@ -20,5 +21,6 @@ public class Exercicio02 {
 		for(Integer elemento : lista) {
 			System.out.print(elemento + " ");
 		}
+		System.out.println();
 	}
 }
