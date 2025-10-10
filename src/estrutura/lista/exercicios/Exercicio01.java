@@ -1,14 +1,18 @@
 package estrutura.lista.exercicios;
 
-public class Exercicio01 {
+import java.util.ArrayList;
 
+public class Exercicio01 {
+	public static void main(String[] args) {
+		ArrayList<String> nomes = new ArrayList<>();
+		nomes.add("João");
+		nomes.add("Maria");
+		nomes.add("Arthur");
+		nomes.add("Ana");
+		nomes.add("Igor");
+		
+		for(String elemento : nomes) {
+			System.out.print(elemento + " ");
+		}
+	}	
 }
-/*
-Exercício 1: 
-Lista de Nomes com ArrayList
-Objetivo: Criar uma lista de nomes e imprimir todos.
-Escreva um programa que:
-• Crie um ArrayList de nomes (String)
-• Adicione 5 nomes à lista
-• Imprima todos os nomes usando um laço for-each
-*/
