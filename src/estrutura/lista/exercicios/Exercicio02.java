@@ -1,14 +1,24 @@
 package estrutura.lista.exercicios;
 
-public class Exercicio02 {
+import java.util.LinkedList;
+import java.util.List;
 
+public class Exercicio02 {
+	public static void main(String[] args) {
+		LinkedList<Integer> numeros = new LinkedList<Integer>();
+		numeros.add(10);
+		numeros.add(20);
+		numeros.add(30);
+		numeros.add(40);
+		numeros.add(50);
+		numeros.removeFirst();
+		numeros.removeLast();
+		imprimir(numeros);
+	}
+	
+	public static void imprimir(List<Integer> lista) {
+		for(Integer elemento : lista) {
+			System.out.print(elemento + " ");
+		}
+	}
 }
-/*
-Exercício 2: 
-Utilizar LinkedList e realizar operações de adição e remoção.
-Faça um programa que:
-• Crie uma LinkedList de inteiros
-• Adicione os valores 10, 20, 30, 40 e 50
-• Remova o primeiro e o último elementos da lista
-• Exiba a lista resultante
-*/
