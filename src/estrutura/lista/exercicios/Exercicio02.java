@@ -11,9 +11,11 @@ public class Exercicio02 {
 		numeros.add(30);
 		numeros.add(40);
 		numeros.add(50);
+		System.out.println("Imprimindo a lista com " + numeros.size() + " elementos:");
 		imprimir(numeros);
 		numeros.removeFirst();
 		numeros.removeLast();
+		System.out.println("\nImprimindo a lista com " + numeros.size() + " elementos:");
 		imprimir(numeros);
 	}
 	
