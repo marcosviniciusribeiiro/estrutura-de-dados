@@ -1,4 +1,4 @@
-package estrutura.lista.listadupla;
+package estrutura.lista.listaDupla;
 
 public class ListaDuplamenteEncadeada {
 	private No primeiro;
