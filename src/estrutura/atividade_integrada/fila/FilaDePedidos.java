@@ -14,5 +14,11 @@ public class FilaDePedidos<T> {
 		return fila.poll();
 	}
 	
+	public boolean estaVizia() {
+		return fila.isEmpty();
+	}
 	
+	public void imprimir() {
+		System.out.println(fila);
+	}
 }
