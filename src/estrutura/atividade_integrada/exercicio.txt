@@ -1,0 +1,18 @@
+Atividade integrada - Fila, Pilha e Lista.
+
+Um sistema de pedidos de restaurante precisa gerenciar as tarefas de cozinha, os pedidos dos clientes e as ações do chef.
+
+Exercícios:
+
+Use Fila para gerenciar a ordem de chegada dos pedidos.
+Use Pilha para registrar as ações do chef (como “Preparar prato A”, “Preparar prato B”).
+Use Lista Encadeada para manter a lista completa de pedidos ativos.
+
+Na classe Principal:
+
+Simule a chegada de 5 pedidos. (como: "Pedido 1", "Pedido 2")
+O chef realiza 3 ações, adicionadas na pilha (como "Preparar prato A", "Preparar prato B").
+Remova 2 pedidos da fila.
+Atualize a lista encadeada com os pedidos restantes (como: "Pedido 3", "Pedido 4" , "Pedido 5")
+Remover o "Pedido 4" 
+Exiba a pilha (ações do chef), a fila (pedidos) e a lista (pedidos ativos).
