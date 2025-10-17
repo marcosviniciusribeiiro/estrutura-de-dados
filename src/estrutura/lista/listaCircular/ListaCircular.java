@@ -26,7 +26,7 @@ public class ListaCircular {
 		}
 		No atual = primeiro;
 		
-		while(atual.proximo.valor != valor) {
+		while(atual.proximo != primeiro) {
 			if(atual.proximo.valor == valor) {
 				atual.proximo = atual.proximo.proximo;
 				break;
@@ -52,6 +52,6 @@ public class ListaCircular {
 			System.out.print(atual.valor + " -> ");
 			atual = atual.proximo;
 		}
-		System.out.println();
+		System.out.println("\n");
 	}
 }
