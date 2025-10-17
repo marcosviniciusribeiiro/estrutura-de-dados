@@ -1,4 +1,4 @@
-package estrutura.atividade_integrada.fila;
+package estrutura.atividade_integrada;
 
 import java.util.LinkedList;
 import java.util.Queue;
