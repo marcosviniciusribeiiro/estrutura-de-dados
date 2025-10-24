@@ -3,7 +3,7 @@ package estrutura.funcao.recursiva;
 public class FatorialFor {
 	
 	public static void main(String[] args) {
-		int num = 5;
+		int num = 4;
 		
 		int fatorial = calcularFatorial(num);
 		
