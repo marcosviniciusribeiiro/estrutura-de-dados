@@ -1,4 +1,4 @@
-package estrutura.lista.listaDupla;
+package estrutura.lista.listadupla;
 
 public class TestarListaDuplamenteEncadeada {
 	public static void main(String[] args) {
