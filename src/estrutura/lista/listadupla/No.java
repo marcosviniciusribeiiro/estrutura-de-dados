@@ -1,4 +1,4 @@
-package estrutura.lista.listaDupla;
+package estrutura.lista.listadupla;
 
 public class No {
 	public int valor;
