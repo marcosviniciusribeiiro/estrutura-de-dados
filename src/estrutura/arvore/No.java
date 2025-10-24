@@ -1,9 +1,9 @@
 package estrutura.arvore;
 
 public class No {
-	public int valor;
-	public No esquerda;
-	public No direita;
+	int valor;
+	No esquerda;
+	No direita;
 	
 	public No (int valor) {
 		this.valor = valor;
