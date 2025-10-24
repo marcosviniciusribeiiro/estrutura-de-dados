@@ -3,7 +3,7 @@ package estrutura.funcao.recursiva;
 public class FatorialRecursivo {
 
 	public static void main(String[] args) {
-		int num = 0;
+		int num = 3;
 		
 		int fatorial = fatorial(num);
 		
