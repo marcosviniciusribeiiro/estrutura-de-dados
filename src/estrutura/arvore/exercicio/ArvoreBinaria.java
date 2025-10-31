@@ -49,7 +49,7 @@ public class ArvoreBinaria {
 	
 	// Imprimir em ordem alfabética
 	public void imprimirEmOrdem() {
-		System.out.println("\nPalavras em Ordem Alfabética:\n");
+		System.out.println("\nPalavras em ordem alfabética:");
 		imprimirEmOrdemRec(raiz);
 		System.out.println();
 	}
