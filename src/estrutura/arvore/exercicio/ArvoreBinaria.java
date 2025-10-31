@@ -3,10 +3,6 @@ package estrutura.arvore.exercicio;
 public class ArvoreBinaria {
 	private No raiz;
 	
-	public ArvoreBinaria() {
-		this.raiz = null;
-	}
-	
 	// Inserir palavra na arvore binária
 	public void inserir(String palavra) {
 		raiz = inserirRec(raiz, palavra.toLowerCase());
@@ -31,6 +27,38 @@ public class ArvoreBinaria {
 	}
 	
 	// Buscar por uma palavra
+	public boolean buscar(String palavra) {
+		return buscarRec(raiz, palavra.toLowerCase());
+	}
+	
+	private boolean buscarRec(No atual, String palavra) {
+		if(atual == null) {
+			return false;
+		}
+		
+		int comparacao = palavra.compareTo(atual.palavra);
+		
+		if(comparacao == 0) {
+			return true;
+		} else if (comparacao < 0) {
+			return buscarRec(atual.esquerda, palavra);
+		} else {
+			return buscarRec(atual.direita, palavra);
+		}
+	}
 	
 	// Imprimir em ordem alfabética
+	public void imprimirEmOrdem() {
+		System.out.println("\nPalavras em Ordem Alfabética:\n");
+		imprimirEmOrdemRec(raiz);
+		System.out.println();
+	}
+
+	private void imprimirEmOrdemRec(No atual) {
+		if(atual != null) {
+			imprimirEmOrdemRec(atual.esquerda);
+			System.out.print(atual.palavra + " ");
+			imprimirEmOrdemRec(atual.direita);
+		}
+	}
 }
