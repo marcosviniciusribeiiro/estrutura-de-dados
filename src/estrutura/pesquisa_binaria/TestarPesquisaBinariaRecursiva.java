@@ -8,9 +8,10 @@ public class TestarPesquisaBinariaRecursiva {
 		int resultado = PesquisaBinariaRecursiva.buscaBinaria(vetor, numProcurado, 0, vetor.length-1);
 		
 		if(resultado == -1) {
-			System.out.println("Não encontrado!");
+			System.out.println("Número não encontrado!");
 		} else {
 			System.out.println("Número " + numProcurado + " foi encontrado na posiçao: " + resultado);
 		}
 	}
 }
+ 
