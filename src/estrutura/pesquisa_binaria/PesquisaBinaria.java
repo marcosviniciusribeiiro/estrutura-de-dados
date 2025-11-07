@@ -18,7 +18,6 @@ public class PesquisaBinaria {
 			}
 			
 		}
-		
 		return -1;
 	}
 }
